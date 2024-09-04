@@ -1,3 +1,7 @@
+
 fun main(args: Array<String>) {
-    println("Hello World!")
+
+    val archivesView = ArchivesView(Archives())
+    archivesView.show()
+
 }
