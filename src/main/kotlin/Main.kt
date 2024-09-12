@@ -1,7 +1,5 @@
 
 fun main(args: Array<String>) {
-
-    val archivesView = ArchivesView(Archives())
-    archivesView.show()
-
+    val view = View(Archives())
+    view.showArchives()
 }

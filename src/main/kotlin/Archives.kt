@@ -1,4 +1,4 @@
-data class Archive(val name: String) {
+class Archive(val name: String) {
     var notes: Notes = Notes()
 }
 class Archives() {
